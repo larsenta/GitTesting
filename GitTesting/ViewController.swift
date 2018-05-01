@@ -11,12 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var labelText: UILabel!
+    @IBOutlet weak var labelThird: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         labelText.text = "My text"
         print("View loaded")
+        labelThird.text = "Third label!"
     }
 
     override func didReceiveMemoryWarning() {

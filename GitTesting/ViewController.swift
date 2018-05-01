@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         labelText.text = "My text"
         print("View loaded")
         labelThird.text = "Third label!"
+        print("Second text")
     }
 
     override func didReceiveMemoryWarning() {
